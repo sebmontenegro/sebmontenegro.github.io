@@ -1,4 +1,4 @@
-# Sebastian's GitHub
+# Sebastian's GitHub (Advanced Progrmming Class)
 
 Here's a couple project I am currently working on.
 
