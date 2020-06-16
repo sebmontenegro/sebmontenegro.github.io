@@ -69,11 +69,11 @@ rm(tmp1)
 
 
 token <- rtweet::create_token(
-  app = "Data analysis for sentiments",
-  consumer_key <- "gJtlmS24hNInMpc5sEb5mD5WF",
-  consumer_secret <- "JBcqLQuHVZBFwZqH73i0l4K2d8c32nkA0btzoQo9yMhUKrg6cC",
-  access_token <- "80126126-QTVaXruI1lOwN6YPXX0473cVHg2m5Y314VI17XqiA",
-  access_secret <- "89QC8nB9ssmKp6uQy6BKMdmBG5xTowskcxutHtSrCft25")
+  app = "app",
+  consumer_key <- "consumer_key",
+  consumer_secret <- "consumer_secret",
+  access_token <- "access_token",
+  access_secret <- "access_secret")
 
 ## Check token
 
