@@ -2,7 +2,7 @@
 
 Here's a couple project I am currently working on.
 
-[Exercise 1](Files/ex1)
+[Exercise 1](Files)
   - [Number of Replies to @Chicago_Police Tweets](Files/ex1/Plot1.pdf)
   - [Number of Retweets of @Chicago_Police Tweets](Files/ex1/Plot2.pdf)
   - [Number of Favs of @Chicago_Police Tweets](Files/Plot3.pdf)
