@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercise 2
 
   - [Number of Replies to @Chicago_Police Tweets](files/Plot1.pdf)
   - [Number of Retweets of @Chicago_Police Tweets](files/Plot2.pdf)
