@@ -24,6 +24,7 @@ tiff("plot1.tiff", units="in", width=7, height=5, res=300)
 ggplot(p1[which(as.Date(p1$Var1)>="2020-01-01"),], aes(x=as.Date(Var1), y=Freq)) + geom_line() + theme_light()+
   scale_x_date(date_labels = "%b %Y") + labs(title="Number of \'Police Brutality\' Tweets in the Chicago Area",x ="", y = "Frequancy")
 dev.off()
+rm(p1)
 
 desc <- function(x){
   #This function shows the median, mean, min, and max of a numeric variable
@@ -40,7 +41,7 @@ desc <- function(x){
 }
 
 tmp1 <- data[data$replies>0,]
-tiff("plot1.tiff", units="in", width=7, height=5, res=300)
+tiff("plot2.tiff", units="in", width=7, height=5, res=300)
 ggplot(tmp1, aes(x=replies)) +
   geom_histogram(binwidth=1, colour="black", fill="deepskyblue3") +
   theme_light() + labs(title="Number of Replies to \'Police Brutality\' Tweets in the Chicago Area",x ="Number of Replies", y = "Frequancy") +
@@ -49,7 +50,7 @@ dev.off()
 rm(tmp1)
 
 tmp1 <- data[data$retweets>0,]
-tiff("plot2.tiff", units="in", width=7, height=5, res=300)
+tiff("plot3.tiff", units="in", width=7, height=5, res=300)
 ggplot(tmp1, aes(x=replies)) +
   geom_histogram(binwidth=1, colour="black", fill="deepskyblue3") +
   theme_light() + labs(title="Number of RT to \'Police Brutality\' Tweets in the Chicago Area",x ="Number of Replies", y = "Frequancy") +
@@ -58,7 +59,7 @@ dev.off()
 rm(tmp1)
 
 tmp1 <- data[data$favorites>0,]
-tiff("plot3.tiff", units="in", width=7, height=5, res=300)
+tiff("plot4.tiff", units="in", width=7, height=5, res=300)
 ggplot(tmp1, aes(x=replies)) +
   geom_histogram(binwidth=1, colour="black", fill="deepskyblue3") +
   theme_light() + labs(title="Number of RT to \'Police Brutality\' Tweets in the Chicago Area",x ="Number of Replies", y = "Frequancy") +
@@ -68,11 +69,11 @@ rm(tmp1)
 
 
 token <- rtweet::create_token(
-  app = "app",
-  consumer_key <- "consumer_key",
-  consumer_secret <- "consumer_secret",
-  access_token <- "access_token",
-  access_secret <- "access_secret")
+  app = "Data analysis for sentiments",
+  consumer_key <- "gJtlmS24hNInMpc5sEb5mD5WF",
+  consumer_secret <- "JBcqLQuHVZBFwZqH73i0l4K2d8c32nkA0btzoQo9yMhUKrg6cC",
+  access_token <- "80126126-QTVaXruI1lOwN6YPXX0473cVHg2m5Y314VI17XqiA",
+  access_secret <- "89QC8nB9ssmKp6uQy6BKMdmBG5xTowskcxutHtSrCft25")
 
 ## Check token
 
