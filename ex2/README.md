@@ -1,6 +1,6 @@
 # Exercise 2
 
-  - [Number of Replies to 'Police Brutality' Tweets in the Chicago Area](files/Plot1.pdf)
+  - [Number of Replies to 'Police Brutality' Tweets in the Chicago Area](files/Plot1.tiff)
   - [Number of Retweets of 'Police Brutality' Tweets in the Chicago Area](files/Plot2.pdf)
   - [Number of Favs of 'Police Brutality' Tweets in the Chicago Area](files/Plot3.pdf)
   - [Day of the Week for Tweets Containing 'PoliceBrutality' in Chicago Area](files/Plot4.pdf)
