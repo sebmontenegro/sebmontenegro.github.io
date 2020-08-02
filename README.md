@@ -6,4 +6,4 @@ Here's a couple project I am currently working on.
 
 [Exercise 2](ex2)
 
-[Project](sebmontenegro.github.io/ChicagoPD/)
+[Project](https://sebmontenegro.github.io/ChicagoPD/)
