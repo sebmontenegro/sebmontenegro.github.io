@@ -1,3 +1,4 @@
+# Examining Police Misconduct: Evidence from Chicago
 This post examines the features of [R Markdown](http://www.rstudio.org/docs/authoring/using_markdown) 
 using [knitr](http://yihui.name/knitr/) in Rstudio 0.96.
 This combination of tools provides an exciting improvement in usability for 
